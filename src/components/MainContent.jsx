@@ -48,6 +48,7 @@ export default function MainContent(){
     
     return(
         <main>
+            <h2 style={{textAlign:"center"}}>Provide a list of ingredients to get a recipe based on it.</h2>
         <form action={kuchTohHai}>
             
             <input type="text" placeholder="eg. Egg" name="ingredients"/>
